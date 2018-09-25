@@ -1,0 +1,14 @@
+{
+  "bundles": {
+    "Cnam\\PsBenBundle\\CnamPsBenBundle": ["all"]
+  },
+  "copy-from-package": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "env": {
+    "PSBEN_MOCK": "true",
+    "PSBEN_CERT": "dev.crt",
+    "PSBEN_CERT_VERIF": "true",
+  },
+  "aliases": ["psben"]
+}
